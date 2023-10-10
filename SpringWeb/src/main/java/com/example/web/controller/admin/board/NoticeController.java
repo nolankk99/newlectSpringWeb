@@ -20,6 +20,7 @@ public class NoticeController {
 	public String list() {
 
 		List<NoticeView> list = service.getViewList(null);
+		int i = 1;
 		return "admin.board.notice.list";
 	}
 
